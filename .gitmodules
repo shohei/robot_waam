@@ -1,0 +1,3 @@
+[submodule "kuka_kvp_command_interface"]
+	path = kuka_kvp_command_interface
+	url = https://github.com/roboticsdojo/kuka_kvp_command_interface
