@@ -33,6 +33,8 @@ for line in fin.readlines():
             print('Z:'+str(Z)+ ' ',end='')
         if 'X' not in line and 'Y' not in line and 'Z' not in line:
             continue
+        print()
+
         [X,Y,Z] = [float(X),float(Y),float(Z)]
         [A1,A2,A3,A4,A5,A6] = inverse_kinematics_dummy(X,Y,Z)
         write_to_KVP_memory_dummy(A1,A2,A3,A4,A5,A6)
