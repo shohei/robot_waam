@@ -2,6 +2,7 @@
 from random import random
 
 def inverse_kinematics_dummy(X,Y,Z):
+    # TODO: Use Inverse Kinematics Engine (e.g., MoveIt!) to calculate the actual value!
     A1 = random()
     A2 = random()
     A3 = random()
